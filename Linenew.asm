@@ -2,7 +2,7 @@
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
 
-//This code is to draw rectangle.
+//This code is to draw lines.
 
     @SCREEN
     D=A
