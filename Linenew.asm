@@ -2,14 +2,14 @@
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
 
-//This code is to draw lines.
+//This code is to draw rectangle.
 
     @SCREEN
     D=A
     @addr
     M=D
 
-    @32
+    @1
     D=A
     @adjc   //distance between two lines for horizontal direction
     M=D
@@ -18,7 +18,7 @@
     @adjr   //distance from base line
     M=D
 
-    @2
+    @10
     D=A
     @n      //length for verical line
     M=D
@@ -29,7 +29,7 @@
     M=D
 
 //Multiplication m*32
-    @32
+    @320
     D=A
     @k
     M=D
